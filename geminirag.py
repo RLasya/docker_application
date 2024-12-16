@@ -5,7 +5,7 @@
 # import chromadb
 # from chromadb import Documents, EmbeddingFunction, Embeddings
 # from typing import List
-# os.environ["GEMINI_API_KEY"]="AIzaSyAiKL1IsQgrAcNTSzSF-iPIh6smDEyfwJM"
+# os.environ["GEMINI_API_KEY"]="your-api-key"
 
 # def transcribe_video(video_path):
 #     model = whisper.load_model("base")
@@ -158,7 +158,7 @@ import google.generativeai as genai
 import chromadb
 from chromadb import Documents, EmbeddingFunction, Embeddings
 from typing import List
-os.environ["GEMINI_API_KEY"] = "AIzaSyAiKL1IsQgrAcNTSzSF-iPIh6smDEyfwJM"
+os.environ["GEMINI_API_KEY"] = "your-api-key"
 
 def transcribe_video(video_path):
     model = whisper.load_model("base")
